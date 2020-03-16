@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo UI Library';
+  public myDatepickerValue: string | Date = new Date(2018, 1, 2);
 }

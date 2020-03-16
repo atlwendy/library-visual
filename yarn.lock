@@ -1246,10 +1246,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@terminus/ui@16.3.5":
-  version "16.3.5"
-  resolved "https://registry.yarnpkg.com/@terminus/ui/-/ui-16.3.5.tgz#e279715abbe06b026ff25de186dbce8070f8969a"
-  integrity sha512-eVy/d0TSO49Gv8j4tG61dX1/VE1EgRQ0qtTMxqYbboAJwgfOOWBRfkmJCiiVHsg3phf3h68PzskSZXObHP4bfg==
+"@terminus/ui@17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@terminus/ui/-/ui-17.0.0.tgz#6394e0705d4428ca68a5176d508df3a8c8baa084"
+  integrity sha512-qhO9kgOI/IeCifNDo9+I1LuDNDq0ylkDweYPuUJx2/NoRJz2eKLq/IiYc/7TpcBBD+vBnPZfmvoKBO3mqAz4bg==
   dependencies:
     ngx-perfect-scrollbar "8.0.0"
     text-mask-addons "3.8.0"

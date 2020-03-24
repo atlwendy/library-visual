@@ -57,3 +57,20 @@
     tsVerticalSpacing
   >I'm disabled AND empty inside :(</ts-button>
 </ts-card>
+
+<ts-card tsVerticalSpacing>
+  <h3 tsCardTitle tsVerticalSpacing>
+    Input with Datepicker
+  </h3>
+
+  <ts-input
+    [(ngModel)]="myDatepickerValue"
+    label="Input with datepicker"
+    mask="date"
+    name="Datepicker input"
+    tsVerticalSpacing="small--0"
+    [datepicker]="true"
+  ></ts-input>
+
+  <strong>ngModel value: {{ myDatepickerValue }}</strong>
+</ts-card>

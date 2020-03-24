@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {TsButtonModule, TsCardModule, TsSpacingModule} from '@terminus/ui';
+import {TsButtonModule, TsCardModule, TsInputModule, TsSpacingModule} from '@terminus/ui';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import {TsButtonModule, TsCardModule, TsSpacingModule} from '@terminus/ui';
     AppRoutingModule,
     TsButtonModule,
     TsSpacingModule,
-    TsCardModule
+    TsCardModule,
+    TsInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
